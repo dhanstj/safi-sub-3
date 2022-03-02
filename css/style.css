@@ -1,0 +1,240 @@
+*{margin:0;padding:0;}/*여백초기화*/
+a{text-decoration: none; color: #000;}/*밑줄,글자색바꾸기*/
+ul{list-style: none;}/*블릿없애기*/
+body{
+	font-size:14px;
+	color:#202020;
+	line-height:24px;
+	font-family: 'Noto Sans KR', sans-serif;
+	min-width: 1320px;
+}
+/*header_scroll*/
+#header_scroll {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	transition: all 0.5s;
+	z-index: 997;
+	height: 80px;
+}
+#header_scroll.header-scrolled {
+	background: #f9f4ec;
+	transition: all 0.5s;
+	opacity: 0.5;
+}
+/*header_scroll end*/
+/*header 시작*/
+.menu{
+	margin: 0 auto;
+	width: 1320px;
+	height: 76px;
+	background: #f9f4ec;
+}
+.menu_left{
+	float: left;
+	margin: 12px 0 0 100px;
+}
+.menu_right{
+	float: left;
+}
+.menu_right ul{
+	padding-top: 37px;
+	padding-left: 200px;
+}
+.menu_right li{
+	float: left;
+	height: 76px;
+	width: 25%;
+	box-sizing: border-box;
+}
+.menu_right li a{
+	text-align: center;
+	display: block;
+	padding: 0 57px 15px 0;
+	font-size: 16px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 300;
+	color: black;
+}
+.menu_right li a:hover{
+	color: #CAEBF8;
+}
+.menu_right li:nth-child(4) a{
+	padding-left: 47px;
+}
+.menu_right2{
+	float: left;
+}
+.menu_right2 ul{
+	padding-top: 37px;
+	padding-left: 200px;
+}
+.menu_right2 li{
+	float: left;
+	height: 76px;
+	width: 25%;
+	box-sizing: border-box;
+}
+.menu_right2 li a{
+	text-align: center;
+	display: block;
+	padding: 0 57px 15px 0;
+	font-size: 16px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 300;
+	color: #202020;
+}
+.menu_right2 li a:hover{
+	color: #7AB692;
+}
+.menu_right2 li:nth-child(4) a{
+	padding-left: 47px;
+}
+.menu_icon{
+	float: right;
+}
+.menu_icon ul{
+	padding: 37px 30px 0 0;
+}
+.menu_icon li{
+	float: left;
+	height: 76px;
+	width: 25%;
+}
+.menu_icon li a{
+	display: block;
+	padding-right: 20px;
+	opacity: 80%;
+}
+.menu_icon li a:hover{
+	opacity: 100%;
+}
+/*header 끝*/
+/*banner 시작*/
+#banner{
+	height: 286px;
+	margin: 76px auto;
+	text-align: center;
+	margin-bottom: 150px;
+}
+#banner img{
+	width: 1320px;
+}
+/*banner 끝*/
+/*section1 시작*/
+#section1{
+	height: 416px;
+	width: 1143px;
+	margin: 0 auto;
+	background-image: url(../images/photo1.png);
+	background-repeat: no-repeat;
+	background-position: 608px 0;
+}
+#section1 h2{
+	padding-top: 88px;
+	font-size: 44px;
+	font-family: 'Noto Sans KR', sans-serif;
+	line-height: 69px;
+}
+#section1 h2 span{
+	color: #eb2140;
+}
+#section1 p{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: bold;
+}
+/*section1 끝*/
+/*section2 시작*/
+#section2{
+	width: 892px;
+	height: 790px;
+	margin: 0 auto;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	margin-bottom: 116px;
+}
+#section2 .box1{
+	text-align: center;
+	padding-top: 20px;
+} 
+#section2 .box2{
+	text-align: center;
+	margin-top: 50px;
+}
+#section2 h3{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+#section2 p{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.section2 .box3{
+	padding-left: 60px;
+	margin-bottom: 150px;
+}
+#section2 .box3 li{
+	float: left;
+	width: 42%;
+	margin-left: 44px;
+	margin-top: 20px;
+}
+#section2 .box4{
+	position: absolute;
+	top: 521px;
+	left: 359px;
+	text-align: center;
+}
+#section2 .box5{
+	margin-left: 50px;
+}
+#section2 .box5 li{
+	float: left;
+	width: 33%;
+	margin-top: 224px;
+}
+/*section2 끝*/
+/*section3 시작*/
+#section3{
+	margin: 0 auto;
+	width: 200px;
+	height: 50px;
+	background-color: #5b3837;
+	margin-bottom: 200px;
+	text-align: center;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+} 
+#section3 a{
+	display: block;
+	padding-top: 14px;
+	color: white;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#footer_wrap{
+	height: 258px;
+	background-color: #5b3837;
+}
+.footer{
+	margin: 0 auto;
+	width: 1320px;
+	text-align: center;
+	background-image: url(../images/footerlogo.png);
+	background-repeat: no-repeat;
+	background-position: 571px 45px;
+	padding-top: 25px;
+	color: #f9f4ec;
+	margin-top: 137px;
+}
+.footer_font{
+	padding-top: 100px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+}
+.footer_font span{
+	font-weight: bold;
+}
